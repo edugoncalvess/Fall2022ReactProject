@@ -1,0 +1,142 @@
+[
+    {
+      "imgSrc": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+      "cardAlt": "Rick Sanchez",
+      "cardTitle": "Rick Sanchez",
+      "cardAddInfo": "Origin: Earth (C-137)",
+      "id": 1
+    },
+    {
+      "imgSrc": "https://rickandmortyapi.com/api/character/avatar/2.jpeg",
+      "cardAlt": "Morty Smith",
+      "cardTitle": "Morty Smith",
+      "cardAddInfo": "Origin: unknown",
+      "id": 2
+    },
+    {
+      "imgSrc": "https://rickandmortyapi.com/api/character/avatar/3.jpeg",
+      "cardAlt": "Summer Smith",
+      "cardTitle": "Summer Smith",
+      "cardAddInfo": "Origin: Earth (Replacement Dimension)",
+      "id": 3
+    },
+    {
+      "imgSrc": "https://rickandmortyapi.com/api/character/avatar/4.jpeg",
+      "cardAlt": "Beth Smith",
+      "cardTitle": "Beth Smith",
+      "cardAddInfo": "Origin: Earth (Replacement Dimension)",
+      "id": 4
+    },
+    {
+      "imgSrc": "https://rickandmortyapi.com/api/character/avatar/5.jpeg",
+      "cardAlt": "Jerry Smith",
+      "cardTitle": "Jerry Smith",
+      "cardAddInfo": "Origin: Earth (Replacement Dimension)",
+      "id": 5
+    },
+    {
+      "imgSrc": "https://rickandmortyapi.com/api/character/avatar/6.jpeg",
+      "cardAlt": "Abadango Cluster Princess",
+      "cardTitle": "Abadango Cluster Princess",
+      "cardAddInfo": "Origin: Abadango",
+      "id": 6
+    },
+    {
+      "imgSrc": "https://rickandmortyapi.com/api/character/avatar/7.jpeg",
+      "cardAlt": "Abradolf Lincler",
+      "cardTitle": "Abradolf Lincler",
+      "cardAddInfo": "Origin: Earth (Replacement Dimension)",
+      "id": 7
+    },
+    {
+      "imgSrc": "https://rickandmortyapi.com/api/character/avatar/8.jpeg",
+      "cardAlt": "Adjudicator Rick",
+      "cardTitle": "Adjudicator Rick",
+      "cardAddInfo": "Origin: unknown",
+      "id": 8
+    },
+    {
+      "imgSrc": "https://rickandmortyapi.com/api/character/avatar/9.jpeg",
+      "cardAlt": "Agency Director",
+      "cardTitle": "Agency Director",
+      "cardAddInfo": "Origin: Earth (Replacement Dimension)",
+      "id": 9
+    },
+    {
+      "imgSrc": "https://rickandmortyapi.com/api/character/avatar/10.jpeg",
+      "cardAlt": "Alan Rails",
+      "cardTitle": "Alan Rails",
+      "cardAddInfo": "Origin: unknown",
+      "id": 10
+    },
+    {
+      "imgSrc": "https://rickandmortyapi.com/api/character/avatar/11.jpeg",
+      "cardAlt": "Albert Einstein",
+      "cardTitle": "Albert Einstein",
+      "cardAddInfo": "Origin: Earth (C-137)",
+      "id": 11
+    },
+    {
+      "imgSrc": "https://rickandmortyapi.com/api/character/avatar/12.jpeg",
+      "cardAlt": "Alexander",
+      "cardTitle": "Alexander",
+      "cardAddInfo": "Origin: Earth (C-137)",
+      "id": 12
+    },
+    {
+      "imgSrc": "https://rickandmortyapi.com/api/character/avatar/13.jpeg",
+      "cardAlt": "Alien Googah",
+      "cardTitle": "Alien Googah",
+      "cardAddInfo": "Origin: unknown",
+      "id": 13
+    },
+    {
+      "imgSrc": "https://rickandmortyapi.com/api/character/avatar/14.jpeg",
+      "cardAlt": "Alien Morty",
+      "cardTitle": "Alien Morty",
+      "cardAddInfo": "Origin: unknown",
+      "id": 14
+    },
+    {
+      "imgSrc": "https://rickandmortyapi.com/api/character/avatar/15.jpeg",
+      "cardAlt": "Alien Rick",
+      "cardTitle": "Alien Rick",
+      "cardAddInfo": "Origin: unknown",
+      "id": 15
+    },
+    {
+      "imgSrc": "https://rickandmortyapi.com/api/character/avatar/16.jpeg",
+      "cardAlt": "Amish Cyborg",
+      "cardTitle": "Amish Cyborg",
+      "cardAddInfo": "Origin: unknown",
+      "id": 16
+    },
+    {
+      "imgSrc": "https://rickandmortyapi.com/api/character/avatar/17.jpeg",
+      "cardAlt": "Annie",
+      "cardTitle": "Annie",
+      "cardAddInfo": "Origin: Earth (C-137)",
+      "id": 17
+    },
+    {
+      "imgSrc": "https://rickandmortyapi.com/api/character/avatar/18.jpeg",
+      "cardAlt": "Antenna Morty",
+      "cardTitle": "Antenna Morty",
+      "cardAddInfo": "Origin: unknown",
+      "id": 18
+    },
+    {
+      "imgSrc": "https://rickandmortyapi.com/api/character/avatar/19.jpeg",
+      "cardAlt": "Antenna Rick",
+      "cardTitle": "Antenna Rick",
+      "cardAddInfo": "Origin: unknown",
+      "id": 19
+    },
+    {
+      "imgSrc": "https://rickandmortyapi.com/api/character/avatar/20.jpeg",
+      "cardAlt": "Ants in my Eyes Johnson",
+      "cardTitle": "Ants in my Eyes Johnson",
+      "cardAddInfo": "Origin: unknown",
+      "id": 20
+      }
+  ]
