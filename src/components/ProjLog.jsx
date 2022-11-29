@@ -4,8 +4,11 @@ const ProjLog = () => {
     return (
         <div>
             <Header title={'Project Log'} />
-            <h3>Project Log</h3>
-            <p>Nov 10 - Group Creation</p>
+            <br />
+            <h3>Project History</h3>
+            <p>2022-11-10 - Group Creation</p>
+            <p>etc....</p>
+            <p>2022-11-27 - Zoo API is shutdown and the project has to be reshaped to use fakestore API</p>
             <p>etc....</p>
             <br />
             <br />
