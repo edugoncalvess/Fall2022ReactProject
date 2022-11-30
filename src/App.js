@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Products from './components/Products';
 import RickMorty from './components/RickMorty';
 import ProjLog from './components/ProjLog';
+import APIPage from './components/APIPage';
 
 
 
