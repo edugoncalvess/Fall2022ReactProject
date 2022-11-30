@@ -1,6 +1,9 @@
 import { useState, useEffect} from "react";
 import Card from './Card';
 import Header from './Header';
+import Fade from '@mui/material/Fade';
+import { Zoom } from "@mui/material";
+// import { TransitionGroup } from 'react-transition-group';
 
 const Products = () => {
 
@@ -34,15 +37,20 @@ const Products = () => {
 
     return (
         <div>
+            {/* <Zoom in={true}><Header title={'Products'} /> </Zoom> */}
             <Header title={'Products'} />
             <button onClick={handleAddProduct}>Add Product</button>
             <div className="row">
+            
             {products.map((eachProduct) => (
+                
                 <Card 
                  product={eachProduct}
                  key={eachProduct.id}
                  handleDelete={handleDelete}/>
+                
             ))}
+            
         </div>
         </div>
 
