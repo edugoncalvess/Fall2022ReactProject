@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Fall2022ReactProject/static/css/main.e6c13ad2.css",
+    "main.js": "/Fall2022ReactProject/static/js/main.86a6750e.js",
+    "index.html": "/Fall2022ReactProject/index.html",
+    "main.e6c13ad2.css.map": "/Fall2022ReactProject/static/css/main.e6c13ad2.css.map",
+    "main.86a6750e.js.map": "/Fall2022ReactProject/static/js/main.86a6750e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.86a6750e.js"
+  ]
+}
