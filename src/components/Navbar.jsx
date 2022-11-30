@@ -17,6 +17,9 @@ const Navigation = () => {
             <Link className="nav-link text-light" to="/rickmorty">Rick and Morty</Link>
           </li>
           <li className="nav-item">
+            <Link className="nav-link text-light" to="/quotes">Quotes API</Link>
+          </li>
+          <li className="nav-item">
             <Link className="nav-link text-light" to="/projLog">Project Log</Link>
           </li>
         </ul>
