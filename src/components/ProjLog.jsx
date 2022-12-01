@@ -33,7 +33,6 @@ const ProjLog = () => {
                         <li>Unify Card and RMCard using parameters to adjust the template/labels</li>
                         <li>Implement an array find on AddProduct handleAddProduct() function so it becomes impossible to duplicate a product</li>
                         <li>Implement style in order to collapse product description until get clicked</li>
-                        <li>Try to use React CSS Transition Group to animate the product while adding and deleting it.</li>
                     </ul>
                 </div>
             </div>
