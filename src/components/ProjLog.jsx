@@ -10,11 +10,13 @@ const ProjLog = () => {
         <div className={StyleCSS.div}>
             <h3 className={StyleCSS.subHeader}>Project Log</h3>
             <div className={StyleCSS.body}>
-                <p>2022-11-10 - Group Creation</p>
-                <p>2022-11-27 - Zoo API is shutdown and the project has to be reshaped to use fakestore API</p>
-                <p>2022-11-29 - React Router is implemented. A live version of the App is created.</p>
-                <p>API is deployed to Heroku and React fronted app is deployed in Vercel. </p>
-                <p>Implement Navigation bar with options like Home, Product, Rick and Morty, Quotes API, and Project Log</p>
+             <p>2022-11-10 - Group Creation</p>
+            <p>2022-11-27 - Zoo API is shutdown and the project has to be reshaped to use fakestore API.</p>
+            <p>2022-11-29 - React Router is implemented. A live version of the App is created.</p>
+            <p>2022-11-29 - Deployed the Frontend App on Vercel. </p>
+            <p>2022-11-29 -Implement Navigation bar with options like Home, Product, Rick and Morty, Quotes API, and Project Log</p>
+            <p>2022-11-30 - Search bar is added to our own API to find the qoutes based on the keywords and deployed the API On Heroku as well. </p>
+            
             </div>
         </div>
 
