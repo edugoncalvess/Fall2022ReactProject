@@ -41,7 +41,7 @@ const Products = () => {
         <div>
             {/* <Zoom in={true}><Header title={'Products'} /> </Zoom> */}
             <Header title={'Products'} />
-            <button className="addBtn"" onClick={handleAddProduct} >Add Product</button>
+            <button className="addBtn" onClick={handleAddProduct} >Add Product</button>
 
             <div className={StyleCSS.card}>
                 <div className="row">
