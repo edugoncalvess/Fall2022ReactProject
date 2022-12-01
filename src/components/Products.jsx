@@ -4,6 +4,7 @@ import Header from './Header';
 import Fade from '@mui/material/Fade';
 import { Zoom } from "@mui/material";
 // import { TransitionGroup } from 'react-transition-group';
+import StyleCSS from '../style/StyleCSS.module.css'
 
 const Products = () => {
 
@@ -39,19 +40,24 @@ const Products = () => {
         <div>
             {/* <Zoom in={true}><Header title={'Products'} /> </Zoom> */}
             <Header title={'Products'} />
-            <button onClick={handleAddProduct}>Add Product</button>
-            <div className="row">
-            
-            {products.map((eachProduct) => (
+            <button className={StyleCSS.btn} onClick={handleAddProduct} >Add Product</button>
+
+            <div className={StyleCSS.card}>
+                <div className="row">
                 
-                <Card 
-                 product={eachProduct}
-                 key={eachProduct.id}
-                 handleDelete={handleDelete}/>
+                    {products.map((eachProduct) => (
+                        
+                        <Card 
+                        className={StyleCSS.card}
+                        product={eachProduct}
+                        key={eachProduct.id}
+                        handleDelete={handleDelete} 
+                        />
+                        
+                    ))}
                 
-            ))}
-            
-        </div>
+                </div>
+            </div>
         </div>
 
       );
