@@ -36,3 +36,104 @@
     transform: rotate(360deg);
   }
 }
+
+/* Button  */
+.addBtn{
+  cursor: pointer;
+  background-color: #282c34;
+  font-weight: bold;
+  margin: 20px;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.addBtn:hover{
+  transition: all .2s ease-in-out;
+    transform: scale(1.2);
+    cursor: pointer;
+    z-index: 1;
+
+}
+.deleteBtn{
+  cursor: pointer;
+  background-color: #282c34;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  border-radius: 5px;
+}
+
+.deleteBtn:hover{
+  transition: all .2s ease-in-out;
+    transform: scale(1.2);
+    cursor: pointer;
+    z-index: 1;
+
+}
+
+/* CSS Transition */
+
+
+.fade-enter{
+  opacity: 0;
+
+}
+
+.fade-enter-active{
+  opacity: 1;
+  transition: opacity 800ms ease-out;
+}
+.fade-leave{
+  opacity: 1;
+}
+.fade-leave-active{
+  opacity: 0;
+  transition: opacity 400ms ease-out;
+}
+/* New Method*/
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.item-name {
+  margin-right: 15px;
+}
+.item {
+    -webkit-animation: fadein .3s linear forwards;
+    animation: fadein .3s linear forwards;
+}
+.item-fadeout{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  -webkit-animation: fadeout .3s linear forwards;
+    animation: fadeout .3s linear forwards;
+}
+
+@-webkit-keyframes fadein {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadein {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeout {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes fadeout {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+
