@@ -10,7 +10,7 @@ const RMCard = ({character}) => {
           />
           <div className="card-body">
             <h3 className="card-title">{character.cardTitle}</h3>
-            <p>{character.origin}</p>
+            <p>{character.cardAddInfo}</p>
           </div>
         </div>
       </div>
