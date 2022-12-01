@@ -1,8 +1,8 @@
 import { useState, useEffect} from "react";
 import Card from './Card';
 import Header from './Header';
-import Fade from '@mui/material/Fade';
-import { Zoom } from "@mui/material";
+// import Fade from '@mui/material/Fade';
+// import { Zoom } from "@mui/material";
 // import { TransitionGroup } from 'react-transition-group';
 import StyleCSS from '../style/StyleCSS.module.css'
 import '../App.css';
