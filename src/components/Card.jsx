@@ -1,16 +1,14 @@
 import React from 'react';
 import{useState} from 'react';
 import '../App.css';
-//import {CSSTransition} from 'react-transition-group';
-//import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 const Card = ({product, handleDelete}) => {
    
-    const [isFadingOut, setIsFadingOut] = useState(false);
-    const fadeOut = (cb)=>{
-        setIsFadingOut(true);
-        cb()
-      }
+    // const [isFadingOut, setIsFadingOut] = useState(false);
+    // const fadeOut = (cb)=>{
+    //     setIsFadingOut(true);
+    //     cb()
+    //   }
 
     
     return (  
@@ -26,11 +24,9 @@ const Card = ({product, handleDelete}) => {
                         <h3 className="card-title">{product.title}</h3>
                         <p> Description : {product.description}</p>
                         
-                        <div className={isFadingOut? 'item-fadeout' :'item'}>
-                        <button className="deleteBtn" onClick={()=>fadeOut(setTimeout(()=>handleDelete(product.id),300))}>Delete Product</button>
-                      
-                        
-                    </div>
+                        {/* <div className={isFadingOut? 'item-fadeout' :'item'}>
+                        <button className="deleteBtn" onClick={()=>fadeOut(setTimeout(()=>handleDelete(product.id),300))}>Delete Product</button> */}
+                        <button className="deleteBtn" onClick={() => handleDelete(product.id)}>Delete Product</button>
                 </div>
                 </div>
         </div>
